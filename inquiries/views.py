@@ -8,7 +8,7 @@ from django.http import HttpResponseRedirect
 
 
 def slenquiry(request):
-     return render(request, 'inquiries/slenquiry.html')
+     return render(request, 'inquiries/index.html')
 @csrf_exempt
 def add_inquiry(request):
     if request.method == 'POST':
